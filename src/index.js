@@ -5,6 +5,7 @@ import "../src/styles/home.css"
 // const currentDate = new Date();
 // const year = currentDate.getFullYear();
 
+
 ReactDom.render(
     <div>
             <h1 className="heading">My favorite foods</h1>
