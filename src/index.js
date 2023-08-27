@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDom from "react-dom";
-
-const name = "Jack";
-const currentDate = new Date();
-const year = currentDate.getFullYear();
+import "../src/styles/home.css"
+// const name = "Jack";
+// const currentDate = new Date();
+// const year = currentDate.getFullYear();
 
 ReactDom.render(
     <div>
-            <p>Created by {name}</p>
-            <p>Copyright {year}</p>
+            <h1 className="heading">My favorite foods</h1>
+            <li contentEditable="true" spellCheck="false">Pizza</li>
+            <li contentEditable="true" spellCheck="false">Hamburger</li>
+            <li contentEditable="true" spellCheck="false">Hot Dogs</li>
     </div>,
     document.getElementById("root")
 );
